@@ -1,19 +1,29 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavBar from './Components/NavBar/NavBar'
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
+import ItemCount from './Components/ItemCount/ItemCount'
+import ItemDetail from './Components/ItemDetail/ItemDetail'
+import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      <NavBar/>
-      <ItemListContainer greeting={'Bienvenidos'}/>
+      <BrowserRouter>
+  <NavBar />
+      <Routes>
+          <Route path='/' element={<ItemListContainer />} />
+          <Route path='/category/:categoryId' element={<ItemListContainer />} />
+          <Route path='/item/:itemId' element={<ItemDetailContainer />} />
+          <Route path='*' element={<h1>404 NOT FOUND</h1>} />
+      </Routes>
+      </BrowserRouter>
+        
+        
     </div>
-  )
+  );
 }
 
 export default App
