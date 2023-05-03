@@ -61,7 +61,7 @@ const products = [
         category: 'Métodos',
         img:'src/assets/img/aeropress.webp',
         stock: 8,
-        description: 'Prensa de café portatil y facil de usar.'   
+        description: 'Prensa de café portátil y fácil de usar.'   
      },
      {
         id: '8',
@@ -70,7 +70,7 @@ const products = [
         category: 'Métodos',
         img:'src/assets/img/mokaitaliana.webp',
         stock: 9,
-        description: 'Cafetera italiana icponica, diseñada para preparar cafe espresso de manera fácil y rápida.'   
+        description: 'Cafetera italiana, diseñada para preparar café espresso de manera fácil y rápida.'   
      },
      {
         id: '9',
@@ -79,7 +79,7 @@ const products = [
         category: 'Métodos',
         img:'src/assets/img/v60ceramica.webp',
         stock: 15,
-        description: 'Es un kit completo para prepara café de alta calidad.'   
+        description: 'Kit completo para prepara café de alta calidad.'   
      },
      {
         id: '10',
