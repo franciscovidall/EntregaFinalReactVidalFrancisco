@@ -70,7 +70,7 @@ const products = [
         category: 'Métodos',
         img:'src/assets/img/mokaitaliana.webp',
         stock: 9,
-        description: 'Cafetera italiana icponica, diseñada para preparar cafe espressio de manera fácil y rápida.'   
+        description: 'Cafetera italiana icponica, diseñada para preparar cafe espresso de manera fácil y rápida.'   
      },
      {
         id: '9',
