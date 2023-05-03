@@ -21,7 +21,7 @@ const products = [
     { 
         id: '3',
         name: 'Café Kenia Kiambu 250g:',
-        price: 11000,
+        price: 850,
         category: 'Café',
         img:'src/assets/img/kenia.webp',
         stock: 12,
