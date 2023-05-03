@@ -61,7 +61,7 @@ const products = [
         category: 'Métodos',
         img:'src/assets/img/aeropress.webp',
         stock: 8,
-        description: 'Prensa de café portatil y facil de usar'   
+        description: 'Prensa de café portatil y facil de usar.'   
      },
      {
         id: '8',
@@ -88,7 +88,7 @@ const products = [
         category: 'Membresías',
         img:'src/assets/img/membresia1.jpg',
         stock: 12,
-        description: '1 bolsa de 500g por mes'   
+        description: '1 bolsa de 500g por mes.'   
      },
      {
         id: '11',
