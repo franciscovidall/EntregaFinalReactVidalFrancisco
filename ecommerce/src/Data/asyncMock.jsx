@@ -79,7 +79,7 @@ const products = [
         category: 'Métodos',
         img:'src/assets/img/v60ceramica.webp',
         stock: 15,
-        description: 'Kit completo para prepara café de alta calidad.'   
+        description: 'Kit completo para preparar café de alta calidad.'   
      },
      {
         id: '10',
