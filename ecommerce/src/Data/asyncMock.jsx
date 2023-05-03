@@ -6,7 +6,7 @@ const products = [
         category: 'Café',
         img:'src/assets/img/BrasilCrucera.webp',
         stock: 10,
-        description: 'Notas: Chocolate, azucar moreno. Origen: Brasil',
+        description: 'Notas: Chocolate, azucar moreno.',
      
     },
     { 
